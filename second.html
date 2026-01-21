@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+    <div class="container-lg">
+        hello everyone
+        <div class="row gy-5">
+            <div class="col-md-4 bg-warning lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam architecto explicabo soluta tenetur optio eos numquam voluptas, suscipit dolore maiores dignissimos! Provident placeat officiis aperiam fugiat excepturi animi?</div>
+            <div class="col-md-4 bg-success lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam architecto explicabo soluta tenetur optio eos numquam voluptas, suscipit dolore maiores dignissimos! Provident placeat officiis aperiam fugiat excepturi animi?</div>
+            <div class="col-md-4 bg-info lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam architecto explicabo soluta tenetur optio eos numquam voluptas, suscipit dolore maiores dignissimos! Provident placeat officiis aperiam fugiat excepturi animi?</div>
+            <div class="col-md-4 bg-warning lh-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam architecto explicabo soluta tenetur optio eos numquam voluptas, suscipit dolore maiores dignissimos! Provident placeat officiis aperiam fugiat excepturi animi?</div>
+            <div class="col-md-4 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam architecto explicabo soluta tenetur optio eos numquam voluptas, suscipit dolore maiores dignissimos! Provident placeat officiis aperiam fugiat excepturi animi?</div>
+            <div class="col-md-4 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam architecto explicabo soluta tenetur optio eos numquam voluptas, suscipit dolore maiores dignissimos! Provident placeat officiis aperiam fugiat excepturi animi?</div>
+        </div>
+    </div>
+
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container">
+        <div class="row py-3">
+            <h2 class="text-center">Bootstrap Form Classes</h2>
+        </div>
+        <div class="row py-3">
+            
+            <div class="col-md-6">
+
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="email" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password" class="form-control">
+                    <small class="form-text text-muted">
+                        Your Passwaord must be 8 characters long.
+                    </small>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Country</label>
+                    <select class="form-control">
+                        <option value="">Select Country</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Message</label>
+                    <textarea type="text" class="form-control"></textarea>
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                 <div class="form-group">
+                    <label for="">Upload File</label>
+                    <input type="file" class="form-control-file">
+                </div>
+<br>
+                <div class="form-group">
+                    <label for="">Amount</label>
+                    <input type="range" class="form-control-range">
+                </div>
+<br>
+                  <div class="form-group">
+                    <label for="">Hobbies</label>
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="reading-check">
+                        <label for="reading-check" class="form-check-label">Reading</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="writing-check">
+                        <label for="writing-check" class="form-check-label">Writing</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="coding-check">
+                        <label for="coding-check" class="form-check-label">Coding</label>
+                    </div>
+                </div>
+<br>
+                  <div class="form-group">
+                    <label for="">Gender</label>
+
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="gender" id="male-radio">
+                        <label for="male-radio" class="form-check-label">Male</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="gender" id="female-radio">
+                        <label for="female-radio" class="form-check-label">Female</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="gender" id="other-radio">
+                        <label for="other-radio" class="form-check-label">Other</label>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container">
+        <h2 class="text-center bg-warning py-3">Inline and Horizontal Form Classes</h2>
+
+        <div class="row py-3">
+            <div class="col">
+                <form action="" class="d-flex align-center gap-2">
+                    <div class="form-group">
+                        <label for="" class="visually-hidden">User Name</label>
+                        <input type="text" class="form-control" placeholder="Enter User Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="" class="visually-hidden">Password</label>
+                        <input type="password" class="form-control" placeholder="Enter Password">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary align-center">Login</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+        <h2 class="text-center bg-warning py-3">Inline and Horizontal Form Classes</h2>
+        <div class="row py-3 px-5">
+
+            <div class="col-md-4">
+                <label for="" class="visually-hidden">User Name</label>
+                <input type="text" class="form-control" placeholder="Enter User Name">
+            </div>
+
+            <div class="col-md-4">
+                <label for="" class="visually-hidden">Password</label>
+                <input type="password" class="form-control" placeholder="Enter Password">
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center justify-content-lg-start">
+                <button type="submit" class="btn btn-success align-center">Login</button>
+            </div>
+
+        </div>
+
+        <div class="row px-5 py-3">
+            <div class="col-6">
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="musiccheck">
+                    <label for="musiccheck" class="form-check-label">Music</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="sportcheck">
+                    <label for="sportcheck" class="form-check-label">Sport</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="bookcheck">
+                    <label for="bookcheck" class="form-check-label">Book</label>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="gender" id="maleradio">
+                    <label for="maleradio" class="form-check-label">Male</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="gender" id="femaleradio">
+                    <label for="femaleradio" class="form-check-label">Female</label>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+        <h2 class="text-center bg-warning g-0">Horizontal Form Label</h2>
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="form-group row py-3 px-5">
+                        <label for="" class="col-sm-2 col-form-label">User Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Enter User Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group row py-3 px-5">
+                        <label for="" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="Password" class="form-control" placeholder="Enter Password">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary ">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+        <h2 class="bg-warning text-center">Bootstrap Custom Form Classes</h2>
+        <div class="row p-3">
+            <div class="col">
+            <select name="" id="" class="custom-select">
+                <option value="">India</option>
+                <option value="">USA</option>
+                <option value="">UK</option>
+                <option value="">Canada</option>
+                <option value="">Pakistan</option>
+            </select>
+
+            <select name="" id="" class="custom-select custom-select-lg">
+                <option value="">India</option>
+                <option value="">USA</option>
+                <option value="">UK</option>
+                <option value="">Canada</option>
+                <option value="">Pakistan</option>
+            </select>
+
+            <select name="" id="" class="custom-select custom-select-sm" multiple size="1">
+                <option value="">India</option>
+                <option value="">USA</option>
+                <option value="">UK</option>
+                <option value="">Canada</option>
+                <option value="">Pakistan</option>
+            </select>
+            </div>
+
+            <div class="col">
+                <input type="range" class="form-range">
+            </div>
+
+            <div class="col">
+                 <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="music">
+                    <label class="form-check-label" for="music">
+                     Music
+                     </label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="sports">
+                    <label class="form-check-label" for="sports">
+                     sports
+                     </label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="Coading">
+                    <label class="form-check-label" for="Coading">
+                     Coading
+                     </label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="Reading">
+                    <label class="form-check-label" for="Reading">
+                        Reading
+                     </label>
+                    </div>
+                </div>
+            </div>
+            
+
+             <div class="row">
+                <div class="col">
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" id="music" name="f-radio">
+                    <label class="form-check-label" for="music">
+                     Music
+                     </label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" id="sports" name="f-radio">
+                    <label class="form-check-label" for="sports">
+                     sports
+                     </label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" id="Coading" name="f-radio">
+                    <label class="form-check-label" for="Coading">
+                     Coading
+                     </label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" id="Reading" name="f-radio">
+                    <label class="form-check-label" for="Reading">
+                        Reading
+                     </label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-switch">
+                    <input class="form-check-input" type="checkbox" id="music" name="f-switch">
+                    <label class="form-check-label" for="music">
+                     Music
+                     </label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-switch">
+                    <input class="form-check-input" type="checkbox" id="sports" name="f-switch">
+                    <label class="form-check-label" for="sports">
+                     sports
+                     </label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-switch">
+                    <input class="form-check-input" type="checkbox" id="Coading" name="f-switch">
+                    <label class="form-check-label" for="Coading">
+                     Coading
+                     </label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-switch">
+                    <input class="form-check-input" type="checkbox" id="Reading" name="f-switch">
+                    <label class="form-check-label" for="Reading">
+                        Reading
+                     </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="" class="visually-hidden">Enter Name</label>
+                        <input type="text" class="form-control is-valid" placeholder="Enter Name">
+                        <div class="valid-feedback">Name is valid!</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-group position-relative">
+                        <label for="" class="visually-hidden">Enter Password</label>
+                        <input type="password" class="form-control is-invalid" placeholder="Enter Password">
+                        <div class="invalid-tooltip">Password is invalid!</div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="" class="visually-hidden">Enter Email</label>
+                        <input type="email" class="form-control" placeholder="Enter Email">
+                    </div>
+                </div>
+
+                <div class="col-3 d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container mb-5 g-0">
+        <h2 class="py-3 text-center bg-warning">Bootstrap Input Group Classes</h2>
+        <div class="row py-3">
+            <div class="col">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">₹</span>
+                    </div>
+                    <input type="text" class="">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="input-group">
+                    <input type="text" class="">
+                    <div class="input-group-append">
+                        <span class="input-group-text">@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+</body>
+</html>
