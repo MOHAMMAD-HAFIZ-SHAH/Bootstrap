@@ -6,6 +6,8 @@
     <title>BOOTSTRAP</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="second.css">
 </head>
 <body>
@@ -439,6 +441,524 @@
                     <div class="input-group-append">
                         <span class="input-group-text">@gmail.com</span>
                     </div>
+                    <button class="btn btn-outline-secondary" type="button">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0 mb-5">
+        <h2 class="text-center bg-warning py-3">Bootstrap Navigation Classes</h2>
+        <div class="row py-3">
+        <div class="col-12">
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <nav class="nav  nav-justified">
+                    <a href="#" class="nav-link active">Home</a>
+                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link disabled">Services</a>
+                    <a href="#" class="nav-link">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+        <h2 class="py-3 text-center bg-warning">Bootstrap Nav Classes</h2>
+        <div class="row align-items-center bg-info g-0">
+            <div class="col-md-3"><h2 class="text-center">Company Name</h2></div>
+
+
+
+            <div class="col-md-6">
+                <nav class="nav nav-justified">
+                    <a href="#" class="nav-link active">Home</a>
+                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link disabled">Services</a>
+                    <a href="#" class="nav-link">Contact</a>
+                </nav>
+            </div>
+
+            <div class="col-md-3">
+                <div class="input-group">
+                    <input type="text" class="form-control px-3" placeholder="Search Here">
+                    <button class="btn btn-outline-dark" type="button">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+    <h2 class="py-3 text-center bg-warning">Bootstrap Navbar Classes</h2>
+
+    <div class="row py-3">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light bg-info">
+                
+                <!-- Brand -->
+                <a href="#" class="navbar-brand">Company Name</a>
+
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="mynavbar">
+
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle"
+                               role="button"
+                               data-bs-toggle="dropdown">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link One</a></li>
+                                <li><a class="dropdown-item" href="#">Link Two</a></li>
+                                <li><a class="dropdown-item" href="#">Link Three</a></li>
+                                <li><a class="dropdown-item" href="#">Link Four</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Search form -->
+                    <form class="d-flex gap-2">
+                        <input class="form-control" type="search" placeholder="Search Here">
+                        <button class="btn btn-outline-dark" type="submit">
+                            Search
+                        </button>
+                    </form>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+        <h2 class="py-3 text-center bg-info">Bootstrap Image & video Classes.</h2>
+        <div class="row py-3">
+            <div class="col-md-4">
+                <img src="wallpaperflare.com_wallpaper.jpg" class="img-fluid img-thumbnail rounded-sm" alt="Placeholder Image">
+            </div>
+
+            <div class="col-md-4">
+                <img src="wallpaperflare.com_wallpaper.jpg" class="img-fluid img-thumbnail rounded-lg" alt="Placeholder Image">
+            </div>
+
+            <div class="col-md-4">
+                <figure class="figure">
+                    <img src="wallpaperflare.com_wallpaper.jpg" class="figure-img img-fluid img-thumbnail" alt="Placeholder Image">
+                    <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+
+            <div class="col-md-4">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item img-thumbnail" src="https://www.youtube.com/embed/0GOgPRxbcNc?si=E-X--LqJhCrxUVgB"></iframe>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item img-thumbnail" src="https://www.youtube.com/embed/0GOgPRxbcNc?si=E-X--LqJhCrxUVgB"></iframe>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item img-thumbnail" src="https://www.youtube.com/embed/0GOgPRxbcNc?si=E-X--LqJhCrxUVgB"></iframe>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <iframe class="embed-responsive-item img-thumbnail" src="https://www.youtube.com/embed/0GOgPRxbcNc?si=E-X--LqJhCrxUVgB"></iframe>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container mb-5 g-0">
+        <h2 class="py-3 text-center bg-warning">Bootstrap Border & Shadow Classes</h2>
+        <div class="row py-5">
+            <div class="col-md-4 m-auto">
+                <div id="box" class="border border-danger p-5 shadow" style="text-align: justify;">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit dolorum labore iste, odit illum possimus cupiditate iure, eum doloremque sint, sed dignissimos! Placeat ipsam quisquam, eaque laborum ipsa laudantium nam unde sunt ea quae aut minus, expedita quam ducimus nemo iste porro perferendis aliquid vel nobis assumenda sit fuga iusto dolorum! Unde temporibus aliquid, quisquam dicta quibusdam ratione quasi? Ipsum neque iusto in excepturi ea perspiciatis tempore, molestias nesciunt asperiores dolore qui, rerum eveniet facere, architecto commodi! Harum veritatis nisi, provident soluta hic, quo in voluptas voluptate quibusdam ipsam commodi. Dolorum quo quia enim, eligendi voluptatem nesciunt iure quam dolorem corrupti vitae adipisci laudantium, iste sint animi tenetur beatae laboriosam explicabo assumenda saepe alias quidem aliquid veritatis aspernatur. Velit nobis ullam doloremque delectus autem necessitatibus nam quod optio officia ipsum consequatur ipsa recusandae id ad soluta animi porro repudiandae, omnis ipsam sapiente vel dignissimos eaque doloribus? Quas debitis ab fuga consectetur unde nulla vero aperiam cumque voluptatum? Laborum facere repellendus expedita dolores, accusamus sit! Velit alias pariatur tempore distinctio repellat ex vel assumenda ipsam unde. Sequi modi dolore aliquam corporis, ullam dolorum obcaecati ipsa quasi. Culpa aut tempora provident enim quisquam corporis eius esse, maxime obcaecati quis facere eveniet?
+                </div>
+                 
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+        <h2 class="text-center p-5 bg-success text-white">Bootstrap Card Classes</h2>
+
+        <div class="row p-3 ">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="wallpaperflare.com_wallpaper.jpg" class="card-img-top" alt="Card Image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                        <a href="#" class="btn btn-primary text-center">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                        <a href="#" class="btn btn-primary text-center">Go somewhere</a>
+                    </div>
+                <img src="wallpaperflare.com_wallpaper.jpg" class="card-img-bottom" alt="Card Image">
+                 </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="wallpaperflare.com_wallpaper.jpg" class="card-img" alt="Card Image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                        <a href="#" class="btn btn-primary text-center">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="row p-3 pt-0">
+            <div class="col-md-4">
+                <div class="card bg-info text-white text-center">
+                    <!-- <img src="wallpaperflare.com_wallpaper.jpg" class="card-img-top" alt="Card Image"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                        <a href="#" class="btn btn-primary text-center">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white text-center">
+                    <img src="wallpaperflare.com_wallpaper.jpg" class="card-img-top" alt="Card Image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis  quam, quidem.</p>
+                        <a href="#" class="btn btn-primary text-center">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="wallpaperflare.com_wallpaper.jpg" class="card-img" alt="Card Image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                        <a href="#" class="btn btn-primary text-center">Go somewhere</a>
+                        <a href="" class="card-link">Read More</a>
+                        <a href="" class="card-link">Previous Card</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row p-3">
+            <div class="col-md-7">
+                <div class="card bg-warning">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="wallpaperflare.com_wallpaper.jpg" class="card-img img-fluid m-3" alt="Card Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Card Title 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                                <a href="#" class="btn btn-primary text-center">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container">
+        <div class="card 21by9">
+            <img src="" alt="" class="card-img img-fluid">
+            <div class="card-body text-center">
+                <h4 class="card-title">Fatima Bano</h4>
+                <p class="card-text">DOB : 01/01/1953</p>
+                <p>Address : Babawayil Ganderbal J&K</p>
+                <p>Contact : 9149583349/ 6006795791/ 8493849316</p>
+                <p>Temp. Address : Channi Rama near police line J&K</p>
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+        <h2 class="text-center bg-danger text-white p-3">Bootstrap Card Group and Columns Classes</h2>
+        <div class="row">
+            <div class="col p-5 pt-0">
+                <div class="card-group gap-3">
+                <div class="card border-3 border-warning shadow-lg">
+                    <img src="wallpaperflare.com_wallpaper.jpg" alt="" class="card-img fluid img-thumbnail">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Card Title</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                    </div>
+                </div>
+
+                <div class="card border-3 border-warning shadow-lg">
+                    <img src="wallpaperflare.com_wallpaper.jpg" alt="" class="card-img fluid img-thumbnail">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Card Title</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                    </div>
+                </div>
+
+                <div class="card border-3 border-warning shadow-lg">
+                    <img src="wallpaperflare.com_wallpaper.jpg" alt="" class="card-img fluid img-thumbnail">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Card Title</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                    </div>
+                </div>
+
+                <div class="card border-3 border-warning shadow-lg">
+                    <img src="wallpaperflare.com_wallpaper.jpg" alt="" class="card-img fluid img-thumbnail">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Card Title</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+        <h2 class="text-center bg-danger text-white p-3">Bootstrap Media Object classes</h2>
+        <div class="row p-5">
+            <div class="col">
+                <div class="d-flex align-items-start">
+                <i class="fa fa-user-circle-o fs-1 me-3"></i>
+                <div>
+                    <h4 class="mt-0">John Doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, accusamus porro. Pariatur cumque fugiat, maxime facilis totam est unde ea ipsum porro voluptatum, sequi numquam mollitia magni rem consequatur vel dicta eligendi exercitationem eos atque beatae laboriosam, minima delectus.</p>
+
+                    <div class="d-flex align-items-start">
+                <i class="fa fa-user-circle-o fs-1 me-3"></i>
+                <div>
+                    <h4 class="mt-0">Yahoo Baba</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, accusamus porro.</p>
+                </div>
+                </div>
+                </div>
+                </div>
+
+                <div class="d-flex align-items-start">
+                <i class="fa fa-user-circle-o fs-1 me-3 align-self-center"></i>
+                <div>
+                    <h4 class="mt-0">John Doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, accusamus porro. Pariatur cumque fugiat, maxime facilis totam est unde ea ipsum porro voluptatum, sequi numquam mollitia magni rem consequatur vel dicta eligendi exercitationem eos atque beatae laboriosam, minima delectus.</p>
+                </div>
+                </div>
+
+                <div class="d-flex align-items-start">
+                <i class="fa fa-user-circle-o fs-1 me-3"></i>
+                <div>
+                    <h4 class="mt-0">Yahoo Baba</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, accusamus porro.</p>
+                </div>
+                </div>
+
+                <div class="d-flex align-items-start">
+                <i class="fa fa-user-circle-o fs-1 me-3 align-self-end"></i>
+                <div>
+                    <h4 class="mt-0">Jasmime</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veritatis omnis a adipisci quisquam culpa repellendus eius molestiae fugiat vel.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, accusamus porro. Pariatur cumque fugiat, maxime facilis totam est unde ea ipsum porro voluptatum.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+        <h2 class="text-center bg-danger text-white p-3">Bootstrap Badge Classes</h2>
+        <div class="row p-5">
+            <div class="col">
+                <h2>Notifications<span class="badge bg-warning">4</span></h2>
+                <button class="btn bg-danger text-white fs-1">Notifications <span class="badge bg-warning">5</span></button>
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+        <h2 class="text-center bg-danger text-white p-3">Bootstrap Progress Bar Classes</h2>
+        <div class="row p-3">
+            <div class="col">
+
+                <h2>Javascript</h2>
+                <div class="progress">
+                    <div class="progress-bar bg-success" style="width: 25%;">25%</div>
+                </div>
+
+                <h2>Python</h2>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-info progress-bar-striped" style="width: 50%;">50%</div>
+                </div>
+
+                <h2>Bootstrap</h2>
+                <div class="progress">
+                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width: 75%;">75%</div>
+                </div>
+
+                <h2>HTML CSS</h2>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 100%;">100%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div><br><br><br><br><br><br></div>
+        <div class="container g-0">
+             <h2 class="text-center bg-danger text-white p-3">Bootstrap Spinner Classes</h2>
+            <div class="row p-3">
+                <div class="col gap-3">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+
+                    <div class="spinner-grow text-secondary" style="width: 90px; height: 90px;" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+
+                    <div class="spinner-border text-danger" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+
+                    <div class="spinner-border text-warning" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+
+                    <div class="spinner-border text-info" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+
+                    <div class="spinner-border text-dark" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+
+                    <button class="btn bg-warning "><span class="spinner-border"></span> ..Loading</button>
+                </div>
+            </div>
+        </div>
+    <div><br><br><br><br><br><br></div>
+
+    <div class="container g-0">
+        <h2 class="text-center bg-danger text-white p-3">Bootstrap Jumbotron</h2>
+        <div class="row p-5">
+            <div class="col">
+                <div class="jumbotro bg-info text-white rounded p-3">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="jumbotro bg-info text-white rounded p-3 jumbotron-fluid">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="jumbotro bg-info text-white rounded p-3 jumbotron-fluid" style="background: url(wallpaperflare.com_wallpaper.jpg); background-size: cover;">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
                 </div>
             </div>
         </div>
